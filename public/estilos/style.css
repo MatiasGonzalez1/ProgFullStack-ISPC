@@ -1,0 +1,22 @@
+.banner-image{
+    background-image: url('../imagenes/banner.webp');
+    background-size: cover;
+    background-position: center center;
+
+}
+.navbar-nav {
+    color: rgb(221, 243, 19);
+    
+}
+.nav-item {
+   
+    font-size: 20px;
+
+}
+.tituloAnimado{
+    font-weight: bold;
+    color: rgb(221, 243, 19);
+    font-style: normal;
+
+
+}
