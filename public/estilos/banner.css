@@ -3,7 +3,8 @@
     width: 100%;
     
     background-image: url('../imagenes/banner.webp');
-    background-size: cover;
+    
+    
     
     background-size: 200%;
     animation: movimiento 10s infinite linear alternate;
