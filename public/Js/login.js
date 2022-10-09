@@ -148,7 +148,8 @@ document.querySelector("#btnLogin").onclick = function(){
             
             position: 'center',
             icon: 'success',
-            title: 'Login Exitoso, ya puede editar contenido',
+            title: 'Login Exitoso',
+            text:'Bienvenid@ Viajer@',
             showConfirmButton: false,
             timer: 1500
             
