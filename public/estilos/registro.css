@@ -1,0 +1,104 @@
+
+/*Formulario de registro*/
+form{
+  margin-top: 10px;
+  position: relative;
+  top: 8%;
+  margin-bottom:8%;
+  width: 90%;
+  padding:10px 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  background-color: rgba(192, 192, 192, 0.682);
+}
+
+form label{
+font-size: 12px;
+}
+
+#nameHelp, #emailHelp{
+  font-size: 10px;
+  color: aliceblue;
+}
+
+.registerSubmit{
+  font-size: 12px;
+  width: 100%;
+}
+/*media queries*/
+
+@media (min-width:480px){
+  form label, .registerSubmit{
+    font-size: 13px;
+  }
+
+  #nameHelp, #emailHelp{
+    font-size: 11px;
+  }
+
+  form{
+    top: 10%;
+    margin-bottom:8%;
+    width: 70%;
+    padding:10px 15px;
+   
+  }
+
+}
+
+@media (min-width:768px){
+  form{
+    top: 12%;
+    left: 25%;
+    margin-bottom:8%;
+    width: 40%;
+    padding:10px 15px;
+   
+  }
+  }
+
+  @media (min-width:913px){
+    form{
+      top: 12%;
+      left: 30%;
+      margin-bottom:8%;
+      width: 35%;
+      padding:10px 15px;
+    }
+    form label{
+      font-size: 14px;
+      padding: 5px 0;
+    }
+    .registerSubmit{
+      font-size: 14px;
+      padding: 5px 0;
+      width: 100%;
+
+    }
+
+    #nameHelp, #emailHelp{
+      font-size: 12px;
+    }
+    }
+
+    @media (min-width:1200px){
+      form{
+        top: 12%;
+        left: 30%;
+        margin-bottom:8%;
+        width: 30%;
+        padding:15px 15px;
+      }
+      form label{
+        font-size: 14px;
+      }
+
+      .registerSubmit{
+        font-size: 16px;
+      }
+      #nameHelp, #emailHelp{
+        font-size: 12px;
+      }
+      }
+
+      /*fin formulario de registro*/

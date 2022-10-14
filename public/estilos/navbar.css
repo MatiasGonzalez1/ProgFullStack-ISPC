@@ -1,0 +1,21 @@
+/* ---------------------header navbar------*/
+.logo {
+    width: 50%;
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+.nav-item a{
+    border-radius: 20%;
+    
+    font-weight: bold;
+
+
+    
+}
+.nav-item a:hover{
+    background-color: rgb(139, 139, 243);  
+    
+
+}

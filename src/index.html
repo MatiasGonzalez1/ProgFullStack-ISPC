@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPVIAJEROS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../public/estilos/style.css">
+    <link rel="stylesheet" href="../public/estilos/navbar.css">
+    <link rel="stylesheet" href="../public/estilos/banner.css">
+    <link rel="stylesheet" href="../public/estilos/provincia.css">
+    <link rel="stylesheet" href="../public/estilos/paquetes.css">
+    <link rel="stylesheet" href="../public/estilos/viajeros.css">
+    <link rel="stylesheet" href="../public/estilos/footer.css">
+    
+</head>
+
+<body>
+
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="#" class="navbar-brand logo"><img src="../public/imagenes/logo.png"></a>
+
+            <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"
+                aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white">Home</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">QuienesSomos</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Provincias</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Viajeros</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Paquetes</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Contacto</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="./views/registro.html" class="nav-link text-white">Registrarse</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="./views/login.html" class="nav-link text-white">Ingresar</a>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!---banner imagen-->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <img class="viajero" src="../public/imagenes/viajeros.svg" alt="">
+            <h1 class="text-white"><span class="typed"></span></h1>
+        </div>
+        <div class="buscar">
+            <input type="text" class="buscar_texto">
+            <a href="" class="boton">
+                <i class="bi bi-search"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="content-imagenes">
+        <button id="custom-btn">Provincias</button>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/bsas/obelisco.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/chubut/colaballena.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/cordoba/lagosanroque.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/corrientes/corrientes.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/jujuy/jujuy.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/mendoza/arcomendoza.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/misiones/cataratas.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/rionegro/bariloche.jpeg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/tierradelfuego/usuahia.jpg" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/santafe/puente.jpg" />
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="../public/imagenes/larioja/arcolarioja.jpg" />
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="content-viajeros">
+        <button id="custom-btn">Viajeros</button>
+        <h3>Publicaciones de nuestros Suscriptores</h3>
+        <div class="Viajeros">
+
+            <div class="containerOpinion">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="../public/imagenes/bsas/gentebsas.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Buenos Aires</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quos est dolore iusto et odit
+                            dolores dolorum id odio quaerat? Commodi odio sunt unde voluptatum labore, autem sapiente ad
+                            illum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="../public/imagenes/cordoba/gentecba.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Cordoba</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quos est dolore iusto et odit
+                            dolores dolorum id odio quaerat? Commodi odio sunt unde voluptatum labore, autem sapiente ad
+                            illum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="../public/imagenes/misiones/gentemisiones.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Misiones</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quos est dolore iusto et odit
+                            dolores dolorum id odio quaerat? Commodi odio sunt unde voluptatum labore, autem sapiente ad
+                            illum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="../public/imagenes/mendoza/opinionMendoza.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Mendoza</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quos est dolore iusto et odit
+                            dolores dolorum id odio quaerat? Commodi odio sunt unde voluptatum labore, autem sapiente ad
+                            illum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="../public/imagenes/rionegro/gentefoca.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Rio Negro</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quos est dolore iusto et odit
+                            dolores dolorum id odio quaerat? Commodi odio sunt unde voluptatum labore, autem sapiente ad
+                            illum?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="../public/imagenes/tucuman/genteTucuman.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Tucuman</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quos est dolore iusto et odit
+                            dolores dolorum id odio quaerat? Commodi odio sunt unde voluptatum labore, autem sapiente ad
+                            illum?</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+    <div class="content-ecommerce">
+
+        <button id="custom-btn">Paquetes</button>
+        <div class="paquetes swiper">
+            
+            
+
+            
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../public/imagenes/paquetes/cabaña.jpg" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Alojamiento</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi,
+                                    voluptatibus eius inventore unde repellat ipsa asperiores provident eos aliquid</p>
+
+
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver Mas</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/imagenes/paquetes/camping.webp" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Camping</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi,
+                                    voluptatibus eius inventore unde repellat ipsa asperiores provident eos aliquid</p>
+
+
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver Mas</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/imagenes/paquetes/colectivos.jpg" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Traslados</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi,
+                                    voluptatibus eius inventore unde repellat ipsa asperiores provident eos aliquid</p>
+
+
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver Mas</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/imagenes/paquetes/escursiones.jpg">
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Excursiones</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi,
+                                    voluptatibus eius inventore unde repellat ipsa asperiores provident eos aliquid</p>
+
+
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver Mas</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/imagenes/paquetes/pasajesaereos.webp" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Pasajes</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi,
+                                    voluptatibus eius inventore unde repellat ipsa asperiores provident eos aliquid</p>
+
+
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver Mas</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../public/imagenes/paquetes/restaurantes.webp" />
+                        <div class="card-description">
+                            <div class="card-title">
+                                <h4>Restaurantes</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi,
+                                    voluptatibus eius inventore unde repellat ipsa asperiores provident eos aliquid</p>
+
+
+                            </div>
+                            <div class="card-link">
+                                <a href="#">Ver Mas</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>          
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo__footer">
+                    <img src="../public/imagenes/logo.png">
+                </div>
+                <div class="terms">
+                    <p>App del Viajero es una comunidad que tiene como finalidad principal difundir y fomentar el turismo nacional para que recorran, disfruten y conozcan todos los rincones de nuestro hermoso  pais.<br><b>Bienvenidos a la Comunidad de App del Viajero</b></p>
+                </div>
+
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="#">Denunciar</a>
+                <a href="#">Como Publicar</a>
+                <a href="#">Como Acceder Perfil</a>
+                <a href="#">Como Pago</a>
+                
+            </div>
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Quienes Somos</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Procesos</a>
+                <a href="#">Servicios</a>
+                
+            </div>
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"><i class="bi bi-facebook"></i>Facebook</a>
+                <a href="#"><i class="bi bi-twitter"></i>Twitter</a>
+                <a href="#"><i class="bi bi-linkedin"></i>Linkedin</a>
+                <a href="#"><i class="bi bi-instagram"></i>Instagram</a>
+                
+            </div>
+
+
+        </div>
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2022 <b>APP DEL VIAJERO</b></p>
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="../public/Js/banner.js"></script>
+    <script src="../public/Js/titulo.js"></script>
+    <script src="../public/Js/imagenes.js"></script>
+    <script src="../public/Js/paquetes.js"></script>
+
+
+</body>
+
+</html>
