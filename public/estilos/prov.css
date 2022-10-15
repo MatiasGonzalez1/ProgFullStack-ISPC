@@ -1,0 +1,70 @@
+header{
+  width:88%;
+  overflow:hidden;
+  background: #252932;
+  margin-bottom: 20px;
+}
+.wrapper{
+  width:90%;
+  max-width: 1000px;
+  margin:auto;
+  overflow:hidden;
+}
+header nav{
+  float:right;
+  line-height:200px;
+
+}
+header nav a {
+  display:inline-block;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 20 px;
+  line-height:normal;
+  font-size :30px;
+  font-weight:bold;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+header nav a:hover{
+  background:#f56f3a;
+  border-radius:70px;
+}
+h1{
+  color: white;
+  text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+  padding:10px 20 px;
+  float:left;
+  line-height:150px;
+}
+
+div.Provincias{
+  margin: 10px 20px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+  float: left;
+  width: 350px;
+}
+
+div.Provincias img{
+  width: 100%;
+  height:auto;
+}
+div.Provincias:hover{
+  border: 1px solid lightcoral;
+  transform: rotate(-3deg);
+}
+div.pie{
+  text-align:center;
+  text-shadow: 2px 2px 5px purple;
+  padding: 10px;
+}
+.Button {
+  display: block;
+  width: 100%;
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  width:88%;
+}
