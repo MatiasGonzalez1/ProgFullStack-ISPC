@@ -1,0 +1,4 @@
+#obtenerContacto()
+#obtenerEmail()
+#obtenerMensaje()
+#cargarcontacto()
