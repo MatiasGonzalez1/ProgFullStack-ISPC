@@ -3,7 +3,8 @@
     width: 50%;
 }
 .logo img{
-    width: 50%;
+    width: 100px;
+    height: 80px;
 }
 .nav-item a{
     border-radius: 20%;
@@ -15,6 +16,4 @@
 }
 .nav-item a:hover{
     background-color: rgb(139, 139, 243);  
-    
-
 }
