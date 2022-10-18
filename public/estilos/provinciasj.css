@@ -1,19 +1,51 @@
+.destinos{
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+   
+  }
 
-
-
-.row{
-padding: top 100px;
-    FONT-WEIGHT: 500;
+.cantainerProvincias{
+    width: 100%;
+    flex-wrap: wrap;
+max-width:1100px;
 }
-div.card {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.card:hover {
-    border: 1px solid #777;
-  }
+
 
   
+div.card{
+    flex-wrap: wrap;
+  
+  margin:20px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius:6px;
+  width:100%;
+}
+
+
+div.card:hover{
+  border: 1px solid lightcoral;
+  transform: rotate(-3deg);
+}
+.cantainerProvincias1{
+    width: 100%;
+display:flex;
+max-width:1100px;
+}
+div.card1{
+    flex-wrap: wrap;
+   
+  margin:20px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius:6px;
+  width:100%;
+}
+
+
+div.card1:hover{
+  border: 1px solid lightcoral;
+  transform: rotate(-3deg);
+}
+.btn--block {
+    display: block;
+    width: 100%;
+  }
