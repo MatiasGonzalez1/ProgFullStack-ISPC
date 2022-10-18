@@ -1,1 +1,0 @@
-#class forma_pago
