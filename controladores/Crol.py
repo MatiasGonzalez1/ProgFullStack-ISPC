@@ -2,4 +2,4 @@
 #modificarRol()
 #eliminarRol()
 #asignarRol()
-#ModificarAsignarion()
+#ModificarAsignacion()

@@ -1,1 +1,3 @@
 #class provincia
+
+#class localidad

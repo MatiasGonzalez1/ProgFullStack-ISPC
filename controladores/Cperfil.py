@@ -1,3 +1,3 @@
-#perfil()
-#modificarPerfil()
-#guardarperfil()
+#obtenerNombre()
+#obtenerimagen()
+#asignarPerfil()

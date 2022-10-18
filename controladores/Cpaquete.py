@@ -1,10 +1,29 @@
-#obtenerusuario
-#obtenerproducto
-#obtenertipo_paquete
-#obtener imagen_paquete
-#obtenerforma de pago
-#publicarpaquete
-#registraroperacion
+# De la clase venta de paquete 
+# 
+# asignarFormaPago()
+#asignarTipoPaquete()
+#obtenerUsuarioVende()
+#obtener venta_paquete()
+#asignarVenta()
+#ventas[]retornarVentas()
 
-#registrarcompra
-#registrarventa
+
+####################################
+## de la clase Formade pago 
+##string obtenerFormaPago()
+##modificarFormaPago()
+###########################
+
+## de la clase tipo_paquete
+#string obtenerTipoPaq()
+#modificarTipoPaquete()
+
+
+
+##############
+#de la clase compra_paquete
+#compras[] retornarCompras()
+
+
+
+
