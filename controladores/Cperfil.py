@@ -1,0 +1,3 @@
+#obtenerNombre()
+#obtenerimagen()
+#asignarPerfil()
