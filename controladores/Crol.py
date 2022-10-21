@@ -1,0 +1,5 @@
+#crearRol()
+#modificarRol()
+#eliminarRol()
+#asignarRol()
+#ModificarAsignacion()
