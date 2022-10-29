@@ -1,5 +1,6 @@
 
-##CrearUsuario()
+def CrearUsuario():
+    pass
 ##eliminarUsuario(id int)
 ##actualizarUsuario(id int)
 ##usuario[] retornarUsuario()
