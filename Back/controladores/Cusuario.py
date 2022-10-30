@@ -1,16 +1,24 @@
 
 def CrearUsuario():
     pass
-##eliminarUsuario(id int)
-##actualizarUsuario(id int)
-##usuario[] retornarUsuario()
-##void agregarRol( rol Rol)
-##void listarUsuario()
+def eliminarUsuario(int):
+    pass
+def actualizarUsuario(int):
+    pass
+def retornarUsuario():
+    pass
+def agregarRol( Rol):
+    pass
+def listarUsuario():
+    pass
 ###
 
 ## De la clase perfil los controladores
-##obtenerNombre()
-##obtenerimagen()
-##asignarPerfil()
+def obtenerNombre():
+    pass
+def obtenerimagen():
+    pass
+def asignarPerfil():
+    pass
 ##
 ##
