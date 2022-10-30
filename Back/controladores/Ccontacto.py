@@ -1,11 +1,16 @@
 #dE LA CLASE CONTACTO
 
-#obtenerContacto()
-#obtenerEmail()
-#obtenerMensaje()
-#cargarcontacto()
+def obtenerContacto():
+    pass
+def obtenerEmail():
+    pass
+def obtenerMensaje():
+    pass
+def cargarcontacto():
+    pass
 
 
 ################
 #De la clase tipo_asunto
-#string obtenerTipoAsunto ()
+def obtenerTipoAsunto ():
+    pass
