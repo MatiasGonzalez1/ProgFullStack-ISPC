@@ -1,5 +1,7 @@
 /*--------------seccion provincias-----------*/
-
+.navbar-toggler{
+  background-color: #000;
+}
 .content-imagenes {
     position: relative;
     text-align: center;

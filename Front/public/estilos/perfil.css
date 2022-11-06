@@ -63,48 +63,19 @@
     object-fit: cover;
     
   }
-  .wrapper .icon{
-    font-size: 100px;
-    color: #9658fe;
-  }
-  .wrapper .text{
-    font-size: 20px;
-    font-weight: 500;
-    color: #5B5B7B;
-  }
-  .wrapper #cancel-btn i{
-    position: absolute;
-    font-size: 20px;
-    right: 15px;
-    top: 15px;
-    color: #9658fe;
-    cursor: pointer;
-    display: none;
-  }
-  .wrapper.active:hover #cancel-btn i{
-    display: block;
-  }
-  .wrapper #cancel-btn i:hover{
-    color: #e74c3c;
-  }
-  .wrapper .file-name{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    padding: 8px 0;
-    font-size: 18px;
-    color: #fff;
-    display: none;
-    background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
-  }
-  .wrapper.active:hover .file-name{
-    display: block;
+  
+ 
+  .invalid-feedback{
+    background-color: #fff;
+    opacity: .7;
   }
 
   .formulario{
     width: 90%;
     max-width: 900px;
+    
   }
+  
 
   @media screen and (min-width:1000px) {
     .contImagen{
