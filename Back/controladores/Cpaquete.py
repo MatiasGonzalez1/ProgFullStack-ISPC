@@ -1,5 +1,6 @@
 # De la clase venta de paquete 
 # 
+
 # asignarFormaPago()
 #asignarTipoPaquete()
 #obtenerUsuarioVende()
