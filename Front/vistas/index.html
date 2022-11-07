@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../public/estilos/banner.css">
     <link rel="stylesheet" href="../public/estilos/provincia.css">
     <link rel="stylesheet" href="../public/estilos/paquetes.css">
+    
     <link rel="stylesheet" href="../public/estilos/viajeros.css">
     <link rel="stylesheet" href="../public/estilos/footer.css">
     
@@ -26,7 +27,7 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
         <div class="container">
-            <a href="#" class="navbar-brand logo"><img src="../public/imagenes/logo.png"></a>
+            <a href="#" class="navbar-brand logoNav"><img src="../public/imagenes/logo.png"></a>
 
             <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"
                 aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
@@ -63,11 +64,11 @@
 
                     </li>
                     <li class="nav-item">
-                        <a href="registro.html" class="nav-link text-white">Registrarse</a>
+                        <a href="registro.html" class="nav-link text-white" id="registrarse">Registrarse</a>
 
                     </li>
                     <li class="nav-item">
-                        <a href="login.html" class="nav-link text-white">Ingresar</a>
+                        <a href="login.html" class="nav-link text-white" id="ingresar">Ingresar</a>
 
                     </li>
 
@@ -81,13 +82,14 @@
             <img class="viajero" src="../public/imagenes/viajeros.svg" alt="">
             <h1 class="text-white"><span class="typed"></span></h1>
         </div>
-        <div class="buscar">
-            <input type="text" class="buscar_texto">
-            <a href="" class="boton">
-                <i class="bi bi-search"></i>
-            </a>
-        </div>
+       
 
+    </div>
+    <div class="buscar">
+        <input type="text" class="buscar_texto">
+        <a href="" class="boton">
+            <i class="bi bi-search"></i>
+        </a>
     </div>
 
     <div class="content-imagenes">
@@ -231,11 +233,7 @@
     <div class="content-ecommerce">
 
         <button id="custom-btn">Paquetes</button>
-        <div class="paquetes swiper">
-            
-            
-
-            
+        <div class="paquetes swiper">           
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="../public/imagenes/paquetes/cabaña.jpg" />

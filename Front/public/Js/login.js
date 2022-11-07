@@ -158,8 +158,8 @@ document.querySelector("#btnLogin").onclick = function(){
                       
             
             setTimeout(function(){
-                window.location.href = "../../src/index.html";
-            }, 1000)
+                window.location.href = "../../Front/vistas/perfil.html";
+            }, 3000)
 
     }
     

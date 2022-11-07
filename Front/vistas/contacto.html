@@ -7,8 +7,11 @@
     <title>Contacto</title>
     <!-- Íconos -->
     <script src="https://kit.fontawesome.com/5223e7595e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Css -->
+    <link rel="stylesheet" href="../public/estilos/footer.css">
     <link rel="stylesheet" href="../public/estilos/style.css">
     <link rel="stylesheet" href="../public/estilos/navbar.css">
     <link rel="stylesheet" href="../public/estilos/contacto.css">
@@ -16,12 +19,12 @@
 
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-md-3">
         <div class="container">
-            <a href="#" class="navbar-brand logo"><img src="../public/imagenes/logo.png"></a>
+            <a href="#" class="navbar-brand logoNav"><img src="../public/imagenes/logo.png"></a>
 
             <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"
-                aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
+                aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar" >
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -55,11 +58,11 @@
 
                     </li>
                     <li class="nav-item">
-                        <a href="registro.html" class="nav-link text-white">Registrarse</a>
+                        <a href="registro.html" class="nav-link text-white" id="registrarse">Registrarse</a>
 
                     </li>
                     <li class="nav-item">
-                        <a href="login.html" class="nav-link text-white">Ingresar</a>
+                        <a href="login.html" class="nav-link text-white" id="ingresar">Ingresar</a>
 
                     </li>
 
@@ -67,53 +70,176 @@
             </div>
         </div>
     </nav>
-        <div class="contenedor">
+     
 
-        <h1 class="logo">Contac<span>to</span></h1>                                
-    </div>
+                                  
+      
 
-    <div class="contact-wrapper">
-        <div class="formulario">
-            <h2>Dejanos tu mensaje</h2>
-            <p>Si querés contactarte con nosotros, llená el siguiente formulario con tus datos y tu consulta.</p>
-            <form action="">
-                <p>
-                    <label>Nombre y Apellido</label>
-                    <input type="text" name="fullname">
-                </p>
-                <p>
-                    <label>Correo Electrónico</label>
-                    <input type="text" name="email">
-                </p>
-                <p>
-                    <label>Número de Teléfono</label>
-                    <input type="tel" name="phone">
-                </p>
-                <p>
-                    <label>Asunto</label>
-                    <input type="text" name="affair">
-                </p>
-                <p class="bloque">
-                    <label>Mensaje</label>
-                    <textarea name="message" rows="4"></textarea>
-                </p>
-                <p class="bloque">
-                    <button type="submit">Enviar Mensaje</button>
-                </p>
-            </form>
+    <div class="containerContacto  container justify-content-center" id="form">
+        <div class="titulo  ">
+            <h1 class="">Contacto</h1>  
+        <h2>Dejanos tu mensaje</h2>
+        <p>Si querés contactarte con nosotros, llená el siguiente formulario con tus datos y tu consulta.</p>
+
         </div>
+        
+        <div class="row">
+            <div class="formulario col-12 col-md-7">
+      
+                <form class="row g-3 needs-validation mt-8" novalidate>
+                    <div class="col-md-5">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationCustom01 nombre"value=""  minlength="4"  required>
+                        
+                        <div class="invalid-feedback">
+                            Por Favor ingrese Nombre.
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-5">
+                    <label for="validationCustom01" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom01 nombre"value=""  minlength="4"  required>
+                    
+                    <div class="invalid-feedback">
+                        Por Favor ingrese Apellido.
+                    </div>
+                    
+                    </div>
+                    
+                    <div class="col-md-5">
+                      <label for="validationCustom03" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Por Favor ingrese Email Valido
+                      </div>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="validationCustom04" class="form-label">Asunto</label>
+       "                 <select class="form-select" id="validationCustom04 select" required>
+                            <option selected disabled value="">Elija...</option>
+                            <option value="sugerenca">Sugerencia</option>
+                            <option value="reclamo">Reclamo</option>
+                            <option value="opinion">Opinion</option>
+                            <option value="denuncia">Denuncia</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Por Favor Seleccione asunto.
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <label for="validationCustom03" class="form-label">Telefono</label>
+                        <input type="number" class="form-control" name="telefono" id="validationCustom03" placeholder="44912345" required  >
+                        <div class="invalid-feedback">
+                          Por Favor ingrese un Telefono.
+                        </div>
+                      </div>
 
-        <div class="info">
-            <h3>Más Información</h3>
-            <ul>
-                <li><i class="fa-solid fa-location-dot"></i> Argentina</li>
-                <li><i class="fa-solid fa-phone"></i> 012 345 6789</li>
-                <li><i class="fa-solid fa-envelope-open-text"></i> Appdelviajero@gmail.com</li>
-            </ul>
-            <p></p>
-            <p>App del Viajero</p>
-        </div>
-    </div>
+                    <div class="col-md-5">
+                        <label for="validationTextarea" class="form-label">Mensaje</label>
+                        <textarea class="form-control " id="validationTextarea"  required rows="10"  cols="7"></textarea>
+                        <div class="invalid-feedback">
+                          Por Favor Ingrese un Mensaje.
+                        </div>
+                      </div>
+                    
+                    
+                    <div class="col-md-5">
+                      <button class="btn btn-primary" id="btncontacto"type="submit" id="contacto">Enviar</button>
+                    </div>
+                  </form>
+                
+            </div>
     
+            <div class="info mr-2 col-11 col-md-4">
+                <div class="encabezado">
+                    <p>Más Información</p>
+                    <p>App del Viajero</p>
+                
+                    <p> Argentina</p>
+
+                </div>
+                <div class="contacto">
+                    <i class="bi bi-telephone">012 345 6789</i><br>
+                    
+                    <i class="bi bi-envelope">Appdelviajero@gmail.com</i>
+                              
+                    
+
+                </div>             
+              
+               
+                <div class="redes">
+                   
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+                
+                <p></p>
+
+            </div>
+
+        </div> 
+        
+    </div>
+
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo__footer">
+                    <img src="../public/imagenes/logo.png">
+                </div>
+                <div class="terms">
+                    <p>App del Viajero es una comunidad que tiene como finalidad principal difundir y fomentar el turismo nacional para que recorran, disfruten y conozcan todos los rincones de nuestro hermoso  pais.<br><b>Bienvenidos a la Comunidad de App del Viajero</b></p>
+                </div>
+
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="#">Denunciar</a>
+                <a href="#">Como Publicar</a>
+                <a href="#">Como Acceder Perfil</a>
+                <a href="#">Como Pago</a>
+                
+            </div>
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Quienes Somos</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Procesos</a>
+                <a href="#">Servicios</a>
+                
+            </div>
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"><i class="bi bi-facebook"></i>Facebook</a>
+                <a href="#"><i class="bi bi-twitter"></i>Twitter</a>
+                <a href="#"><i class="bi bi-linkedin"></i>Linkedin</a>
+                <a href="#"><i class="bi bi-instagram"></i>Instagram</a>
+                
+            </div>
+
+
+        </div>
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2022 <b>APP DEL VIAJERO</b></p>
+
+
+
+        </div>
+
+
+
+    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="../public/Js/ValidarPerfil.js"></script>
+        <script src="../public/Js/validContacto.js"></script>
 </body>
 </html>

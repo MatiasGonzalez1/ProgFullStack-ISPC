@@ -1,20 +1,59 @@
 /* ---------------------header navbar------*/
-.logo {
-    width: 50%;
+.logoNav{
+    width: 30%;
 }
-.logo img{
+.logoNav img{
     width: 50%;
     max-width: 100px;
     max-height: 100px;
 }
 .nav-item a{
-    border-radius: 20%;
-    
+    border-radius: 20px;
+   
     font-weight: bold;
 
 
     
 }
+#navbarNav{
+    background-color: #202529;
+   
+    text-align: center;
+}
 .nav-item a:hover{
     background-color: rgb(139, 139, 243);  
+}
+
+#registrarse{
+    background-color: blue;
+    margin-bottom: 20px;
+    border-radius: 0%;
+    
+
+}
+#ingresar{
+    background-color: rgb(93, 211, 25);
+    border-radius: 0%;
+
+
+}
+.navbar-toggler{
+    background-color: black;
+}
+
+@media (min-width:991px){
+    #registrarse{
+        margin-right: 20px;
+        margin-left: 70px;
+        
+    }
+    #navbarNav{
+        background-color: transparent;
+        opacity: 1;
+    }
+    #ingresar, #registrarse{
+        border-radius: 10%;
+    }
+
+    
 }
