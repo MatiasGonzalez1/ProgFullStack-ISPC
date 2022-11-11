@@ -1,9 +1,16 @@
-#void asignarComentario(string)
-#string obtenerUsuario()
-#void asignarUsuario(string)
-#void asignarLocalidad(string)
-#modificarPublicacion(id_publicacion)
-#eliminarPublicacion(id_publicacion)
-#actualizarPublicacion(id_publicacion)
+def asignarComentario(string):
+    pass
+def obtenerUsuario():
+    pass
+def asignarUsuario(string):
+    pass
+def asignarLocalidad(string):
+    pass
+def modificarPublicacion(id_publicacion):
+    pass
+def eliminarPublicacion(id_publicacion):
+    pass
+def actualizarPublicacion(id_publicacion):
+    pass
 #publicaciones[] retornar_pub()
 
