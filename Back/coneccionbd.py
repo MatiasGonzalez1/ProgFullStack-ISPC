@@ -1,6 +1,6 @@
 
 #se hace el crud de la tabla usuarios
-import mysql.connector
+import  mysql.connector
 
 class Conectar():
     def __init__(self)->None:
@@ -12,8 +12,8 @@ class Conectar():
                 password='root123',
                 port=3306
             )
-        except mysql.connector.Error as descripcionError:
-            print("no se conecto !", descripcionError)
+        except mysql.connector.Error as descripcionErrores:
+            print("no se conecto !", descripcionErrores)
             
     #primera operacion del crud : create o insert
             
