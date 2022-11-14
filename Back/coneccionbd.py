@@ -9,7 +9,7 @@ class Conectar():
                 host ='localhost',
                 database='app_viajeros_db',
                 user='root',
-                password='root123',
+                password='',
                 port=3306
             )
         except mysql.connector.Error as descripcionErrores:
