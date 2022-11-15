@@ -46,7 +46,7 @@
                   
         
         setTimeout(function(){
-            window.location.href = "../../Front/vistas/index.html";
+            window.location.href = "../../../index.html";
         }, 3000)
 
 
