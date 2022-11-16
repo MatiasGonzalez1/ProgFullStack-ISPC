@@ -1,0 +1,26 @@
+#Dentro de VALUES deben ir los datos a ingresar siguiendo el orden correspondiente.
+
+*******Tabla Usuarios********
+
+- Insertar Datos:
+
+INSERT INTO `app_viajeros_db`.`usuario` (`id_usuario`, `nombre_usuario`, `contrasenia`, `correo`, `rol_id_rol`) VALUES ('id_usuario', 'nombre_usuario', 'contrasenia', 'correo', 'rol_id_rol');
+
+- Modificar Datos (nombre_usuario): 
+
+UPDATE `app_viajeros_db`.`usuario` SET `nombre_usuario` = 'nuevo_nombre' WHERE (`id_usuario` = 'id_enviado');
+
+#Para modificar otro dato debe de hacerse el mismo procedimiento pero cambiando el nombre de la columna
+
+- Eliminar Usuario: 
+
+DELETE FROM `app_viajeros_db`.`usuario` WHERE (`id_usuario` = 'id_enviado');
+
+- Leer todos los usuarios :
+
+SELECT * FROM app_viajeros_db.usuario;
+
+- Leer un usuario:
+SELECT * FROM app_viajeros_db.usuario where id_usuario = id_enviado
+
+

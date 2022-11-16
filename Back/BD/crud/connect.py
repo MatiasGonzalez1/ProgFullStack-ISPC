@@ -1,4 +1,5 @@
 import mysql.connector
+from mysql.connector import Error
 
 try:
   conexion = mysql.connector.connect(
